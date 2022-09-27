@@ -19,5 +19,11 @@ function save() {
   count = 0
 }
 
+// 2. Create a function, reset() which resets counter when it is called
+function reset() {
+  count = 0;
+  saveEl.textContent = "Previous entries: " + count;
+}
+
 // End train station counter
 
