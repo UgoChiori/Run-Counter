@@ -59,6 +59,16 @@ button {
   background-color: blanchedalmond;
   color: black;
 }
+#reset-btn {
+  background: rgb(114, 123, 114);
+  cursor: pointer;
+ }
+
+ #reset-btn:hover {
+  background: rgb(114, 123, 114);
+  background-color: blanchedalmond;
+  color: black
+ }
 #save-el {
   font-weight: bolder;
 }
